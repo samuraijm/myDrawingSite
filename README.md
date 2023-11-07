@@ -1,6 +1,4 @@
-<p align="center">
-  <img width="470" src="src/to_assets/readme/myDrawingSite.gif">
-
+![](https://github.com/samuraijm/myDrawingSite/blob/main/myDrawingSite.gif)
 
 
 # Descrição
