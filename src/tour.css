@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lora:ital,wght@1,500&family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --red: #55140b;
+    --gray: #DDDDDD;
+    --grayblack: #070707;
+    --strongray: #888888;
+    --redian: #f1250a;
+}
+
+body {
+    color: var(--strongray);
+    background: var(--gray);
+    background-color: #000000;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 40px;
+    box-shadow: 0.5rem 0.5rem #000000;
+    background-color: var(--grayblack);
+    width: 100%;
+    transition: all 0.5s;
+    top: 80px;
+}
+
+.navigation .leftcontent{
+    font-size: 55px;
+    font-weight: 50;
+    transition: all 0.5s;
+}
+.leftcontent{
+    display: flex;
+    align-items: flex-start;
+    gap: 5rem;
+    color: var(--red);
+}
+
+.navigation .rightcontent{
+    font-family: 'Poppins';
+    font-size: 2.2rem;
+    font-weight: 800;
+    transition: all 0.5s;
+}
+
+.navigation a{
+    color: var(--red);
+
+}
+.navigation a:hover{
+    color: var(--redian);
+    transition: 0.5s all;
+}
+
+.rightcontent{
+    display: flex;
+    align-items: flex-end;
+    gap: 80px;
+    color: var(--red);
+    font-family: 'Poppins';
+}
+
+/*HEADER ^ */
+
+.imagens-slider{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+.imagens-slider .slide{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 99vw;
+    height: 99%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 1.5s ease-out;
+}
+
+.imagens-slider .slide.mostrar{
+    opacity: 1;
+}
+
+.slide-redwest{
+    background-image: url(img/redwest.png);
+    opacity: 2px;
+}
+.slide-project11{
+    background-image: url(img/project11.png);
+}
+.slide-heavens{
+    background-image: url(img/heavens.png);
+}
+.slide-seiken{
+    background-image: url(img/seiken.png);
+}
+
+.imagens-slider .slide .conteudo{
+    background-color: var(--grayblack);
+    display: flex;
+    padding: 10px;
+    width: 100vh;
+    height: 25rem;
+    margin-left: 150px;
+    border-radius: 10px;
+    margin-top: 2.5px;
+    margin-bottom: 50px;
+    box-shadow: 0.0.0.8rem 0.5rem  #000000;
+    flex-direction: column;
+    font-family: 'Lora';
+}
+
+.imagens-slider .slide .conteudo .titulo{
+    color: var(--red);
+    margin-bottom: 1px;
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.imagens-slider .slide .conteudo .texto{
+    color: var(--strongray);
+    margin-top: 50px;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+    gap: 15px;
+}
+
+.seta-voltar, .seta-avancar{
+    position: absolute;
+    z-index: 1;
+}
+
+.seta-voltar{
+    left: 4%;
+    transform: rotateY(180deg);
+}
+
+.seta-avancar{
+    right: 4%;
+}
+
+.seta-voltar .imagem-seta, .seta-avancar .imagem-seta{
+    width: 40px;
+    height: 40px;
+}
+
+.opacidade{
+    opacity: 0.6;
+    cursor: default;
+}
