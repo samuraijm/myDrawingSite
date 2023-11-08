@@ -15,11 +15,11 @@ Após isso um pouco de problemas com o JavaScript (no qual é a linguagem que es
 
 ## Criado com:
 
-..* HTML 5
-..* Propriedades customizadas do CSS
-..* Flexbox
-..* CSS Grid
-..* JavaScript
+⋅⋅* HTML 5
+⋅⋅* Propriedades customizadas do CSS
+⋅⋅* Flexbox
+⋅⋅* CSS Grid
+⋅⋅* JavaScript
 
 ## O que eu aprendi:
 
