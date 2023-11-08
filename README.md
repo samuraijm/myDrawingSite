@@ -11,7 +11,7 @@ Montar um site com links e um carrossel envolvendo meus desenhos.
 ## Meu processo:
 
 Tive algumas dificuldades na parte de centralizar o vídeo de background da home no começo mas com algumas pesquisas consegui finalmente resolver este problema inicial.
-Após isso um pouco de problemas com o JavaScript (no qual é a linguagem que estou aprendendo recentemente), porém com algumas pesquisas em fórums consegui realizar da maneira que eu pensei.
+Após isso tive um pouco de problemas com o JavaScript (cuja qual é a linguagem que estou aprendendo recentemente), porém com algumas pesquisas em fórums consegui realizar da maneira que eu pensei.
 
 ## Criado com:
 
